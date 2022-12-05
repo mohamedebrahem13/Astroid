@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/drawable-v24/ic_help_circle.xml" value="0.1" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.101" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/drawable-v24/ic_status_potentially_hazardous.xml" value="0.101" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/drawable/ic_help_circle.xml" value="0.101" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/drawable/ic_status_normal.xml" value="0.101" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/drawable/ic_status_potentially_hazardous.xml" value="0.101" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/drawable/placeholder_picture_of_day.xml" value="0.101" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/layout/activity_main.xml" value="0.35572916666666665" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/layout/asteroid_item.xml" value="0.34010416666666665" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/layout/fragment_detail.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/layout/fragment_main.xml" value="0.240625" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/layout/layout.xml" value="0.2265625" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/menu/main_overflow_menu.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/Astroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.101" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
