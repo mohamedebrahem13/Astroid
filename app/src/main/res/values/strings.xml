@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Asteroids</string>
 
+
     <string name="next_week_asteroids">View week asteroids</string>
     <string name="today_asteroids">View today asteroids</string>
     <string name="saved_asteroids">View saved asteroids</string>
@@ -18,9 +19,9 @@
     <string name="astronomical_unit_explanation_button">Astronomical unit definition</string>
     <string name="potentially_hazardous_asteroid_image">Potentially hazardous asteroid image</string>
     <string name="not_hazardous_asteroid_image">Not hazardous asteroid image</string>
-    <string name="this_is_nasa_s_picture_of_day_showing_nothing_yet">This is NASA\'s picture of day, showing nothing yet</string>
+    <string name="nasa_image_of_the_day_place_holder">This is NASA\'s picture of day, showing place holder if no image from nasa</string>
     <string name="nasa_picture_of_day_content_description_format">NASA\'s picture of day: %s</string>
-    <string name="nasa_pic_of_the_day">nasa pic of the day</string>
+    <string name="safe_asteroid">safe asteroid image emoji </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

@@ -4,14 +4,19 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
 import com.example.astroid.R
+import com.example.astroid.asteroidradar.domain.PictureOfDay
 import com.squareup.picasso.Picasso
 
 @BindingAdapter("statusIcon")
 fun bindAsteroidStatusImage(imageView: ImageView, isHazardous: Boolean) {
     if (isHazardous) {
         imageView.setImageResource(R.drawable.ic_status_potentially_hazardous)
+        imageView.contentDescription = imageView.context.getString(R.string.potentially_hazardous_asteroid_image)
+
     } else {
         imageView.setImageResource(R.drawable.ic_status_normal)
+        imageView.contentDescription = imageView.context.getString(R.string.safe_asteroid)
+
     }
 }
 
@@ -19,8 +24,11 @@ fun bindAsteroidStatusImage(imageView: ImageView, isHazardous: Boolean) {
 fun bindDetailsStatusImage(imageView: ImageView, isHazardous: Boolean) {
     if (isHazardous) {
         imageView.setImageResource(R.drawable.asteroid_hazardous)
+        imageView.contentDescription = imageView.context.getString(R.string.potentially_hazardous_asteroid_image)
     } else {
         imageView.setImageResource(R.drawable.asteroid_safe)
+        imageView.contentDescription = imageView.context.getString(R.string.not_hazardous_asteroid_image)
+
     }
 }
 
@@ -43,9 +51,18 @@ fun bindTextViewToDisplayVelocity(textView: TextView, number: Double) {
 }
 
 @BindingAdapter("loadimage")
-fun loadImage(imageView: ImageView, url: String?){
-    url?.let {
-        Picasso.get().load(it).into(imageView)
-    }
+fun loadImage(imageView: ImageView, PictureOfDay: PictureOfDay?) {
+    PictureOfDay?.let {
+        if (it.mediaType == "image") {
+            Picasso.get().load(it.url).into(imageView)
+            imageView.contentDescription = imageView.context.getString(
+                R.string.nasa_picture_of_day_content_description_format,
+                PictureOfDay.title)
+        }else{
+            imageView.contentDescription = imageView.context.getString(
+                R.string.nasa_image_of_the_day_place_holder)
+            imageView.setImageResource(R.drawable.no_image_for_today)
+        }
 
+    }
 }

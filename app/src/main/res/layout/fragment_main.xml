@@ -28,8 +28,7 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                app:loadimage="@{viewModel.pictureOfTheDay.url}"
-                android:contentDescription="@string/nasa_pic_of_the_day" />
+                app:loadimage="@{viewModel.pictureOfTheDay}"/>
 
             <TextView
                 android:id="@+id/textView"
